@@ -10,7 +10,6 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 const host = 'localhost';
 const port = 8081;
 
-const token = "MTA3NTI0ODM0OTYwMDU2MzIyMA.GOrMhb.zSzzK2vwCn-LJOdua-wgAdmdxyqj7fR6ic9l2o";
 const channelId = "1152813936131977336";
 const proxyUrl = 'http://localhost:8081/';
 const discordApiUrl = `/api/v9/channels/${channelId}/messages`;
